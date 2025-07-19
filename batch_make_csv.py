@@ -2,9 +2,9 @@
 import glob, os, csv
 
 # 📁 指定图像目录
-img_dir = 'CFA-GAN/data/images'
+img_dir = 'data/images'
 # 📄 输出 CSV 路径
-csv_path = 'CFA-GAN/data/data.csv'
+csv_path = 'data/data.csv'
 
 # 获取所有 png/jpg 图片列表
 files = glob.glob(os.path.join(img_dir, '*.[pj][pn]g'))
